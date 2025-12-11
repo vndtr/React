@@ -29,7 +29,7 @@ function AddTechnology() {
     
     // Создаем новую технологию
     const newTechnology = {
-      id: Date.now(), // Простой ID на основе времени
+      id: Date.now(), 
       ...formData
     };
     
