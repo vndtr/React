@@ -19,16 +19,16 @@ function QuickActions({ onMarkAllCompleted, onResetAllStatuses, technologies, on
       <h3>Быстрые действия</h3>
       <div className="action-buttons">
         <button onClick={onMarkAllCompleted} className="btn-success">
-          ✅ Отметить все как выполненные
+          Отметить все как выполненные
         </button>
         <button onClick={onResetAllStatuses} className="btn-warning">
-          🔄 Сбросить все статусы
+          Сбросить все статусы
         </button>
         <button onClick={handleExport} className="btn-info">
-          📤 Экспорт данных
+          Экспорт данных
         </button>
         <button onClick={handleDeleteAll} className="btn-danger">
-          🗑️ Удалить все
+          Удалить все
         </button>
       </div>
     </div>
